@@ -14,3 +14,10 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+#define kWeatherAPI @"&APPID=c9297c6d46161b797bf7de4de7bc9eb6"
+#define kWeatherRequest @"http://api.openweathermap.org/data/2.5/forecast/daily?"
+#define kWeathercityString @"q="
+#define kWeatherCNT @"&cnt=14"
+
+//http://api.openweathermap.org/data/2.5/forecast/daily?q=Moscow&cnt=14&APPID=xxxxx

@@ -7,20 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1903879B1910EC8C000D9D07 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1903879A1910EC8C000D9D07 /* MapKit.framework */; };
+		1903879D19111587000D9D07 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1903879C19111587000D9D07 /* Background.png */; };
 		192A6BAA190ECD0E00422A06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 192A6BA9190ECD0E00422A06 /* Foundation.framework */; };
 		192A6BAC190ECD0E00422A06 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 192A6BAB190ECD0E00422A06 /* CoreGraphics.framework */; };
 		192A6BAE190ECD0E00422A06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 192A6BAD190ECD0E00422A06 /* UIKit.framework */; };
 		192A6BB4190ECD0E00422A06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 192A6BB2190ECD0E00422A06 /* InfoPlist.strings */; };
 		192A6BB6190ECD0E00422A06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 192A6BB5190ECD0E00422A06 /* main.m */; };
-		192A6BBA190ECD0E00422A06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 192A6BB9190ECD0E00422A06 /* AppDelegate.m */; };
-		192A6BBD190ECD0E00422A06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192A6BBB190ECD0E00422A06 /* Main.storyboard */; };
-		192A6BC0190ECD0E00422A06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 192A6BBF190ECD0E00422A06 /* ViewController.m */; };
 		192A6BC2190ECD0E00422A06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192A6BC1190ECD0E00422A06 /* Images.xcassets */; };
 		192A6BC9190ECD0E00422A06 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 192A6BC8190ECD0E00422A06 /* XCTest.framework */; };
 		192A6BCA190ECD0E00422A06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 192A6BA9190ECD0E00422A06 /* Foundation.framework */; };
 		192A6BCB190ECD0E00422A06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 192A6BAD190ECD0E00422A06 /* UIKit.framework */; };
 		192A6BD3190ECD0E00422A06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 192A6BD1190ECD0E00422A06 /* InfoPlist.strings */; };
 		192A6BD5190ECD0E00422A06 /* Weather_ForcastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 192A6BD4190ECD0E00422A06 /* Weather_ForcastTests.m */; };
+		192A6BE4190ECDB000422A06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 192A6BE3190ECDB000422A06 /* AppDelegate.m */; };
+		192A6BE7190ECDBA00422A06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 192A6BE6190ECDBA00422A06 /* ViewController.m */; };
+		192A6BE9190ECDD800422A06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192A6BE8190ECDD800422A06 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1903879A1910EC8C000D9D07 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1903879C19111587000D9D07 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
 		192A6BA6190ECD0E00422A06 /* Weather Forcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather Forcast.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		192A6BA9190ECD0E00422A06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		192A6BAB190ECD0E00422A06 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -42,17 +46,17 @@
 		192A6BB3190ECD0E00422A06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		192A6BB5190ECD0E00422A06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		192A6BB7190ECD0E00422A06 /* Weather Forcast-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Weather Forcast-Prefix.pch"; sourceTree = "<group>"; };
-		192A6BB8190ECD0E00422A06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		192A6BB9190ECD0E00422A06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		192A6BBC190ECD0E00422A06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		192A6BBE190ECD0E00422A06 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		192A6BBF190ECD0E00422A06 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		192A6BC1190ECD0E00422A06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		192A6BC7190ECD0E00422A06 /* Weather ForcastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weather ForcastTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		192A6BC8190ECD0E00422A06 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		192A6BD0190ECD0E00422A06 /* Weather ForcastTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Weather ForcastTests-Info.plist"; sourceTree = "<group>"; };
 		192A6BD2190ECD0E00422A06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		192A6BD4190ECD0E00422A06 /* Weather_ForcastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Weather_ForcastTests.m; sourceTree = "<group>"; };
+		192A6BE2190ECDB000422A06 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		192A6BE3190ECDB000422A06 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		192A6BE5190ECDBA00422A06 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Controller/ViewController.h; sourceTree = "<group>"; };
+		192A6BE6190ECDBA00422A06 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Controller/ViewController.m; sourceTree = "<group>"; };
+		192A6BE8190ECDD800422A06 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = View/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1903879B1910EC8C000D9D07 /* MapKit.framework in Frameworks */,
 				192A6BAC190ECD0E00422A06 /* CoreGraphics.framework in Frameworks */,
 				192A6BAE190ECD0E00422A06 /* UIKit.framework in Frameworks */,
 				192A6BAA190ECD0E00422A06 /* Foundation.framework in Frameworks */,
@@ -101,6 +106,7 @@
 		192A6BA8190ECD0E00422A06 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1903879A1910EC8C000D9D07 /* MapKit.framework */,
 				192A6BA9190ECD0E00422A06 /* Foundation.framework */,
 				192A6BAB190ECD0E00422A06 /* CoreGraphics.framework */,
 				192A6BAD190ECD0E00422A06 /* UIKit.framework */,
@@ -112,12 +118,12 @@
 		192A6BAF190ECD0E00422A06 /* Weather Forcast */ = {
 			isa = PBXGroup;
 			children = (
-				192A6BB8190ECD0E00422A06 /* AppDelegate.h */,
-				192A6BB9190ECD0E00422A06 /* AppDelegate.m */,
-				192A6BBB190ECD0E00422A06 /* Main.storyboard */,
-				192A6BBE190ECD0E00422A06 /* ViewController.h */,
-				192A6BBF190ECD0E00422A06 /* ViewController.m */,
+				192A6BE0190ECD9C00422A06 /* Controller */,
+				192A6BDF190ECD9700422A06 /* View */,
+				192A6BDE190ECD8F00422A06 /* Model */,
 				192A6BC1190ECD0E00422A06 /* Images.xcassets */,
+				1903879C19111587000D9D07 /* Background.png */,
+				192A6BE1190ECDB000422A06 /* AppDelegate */,
 				192A6BB0190ECD0E00422A06 /* Supporting Files */,
 			);
 			path = "Weather Forcast";
@@ -150,6 +156,39 @@
 				192A6BD1190ECD0E00422A06 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		192A6BDE190ECD8F00422A06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		192A6BDF190ECD9700422A06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				192A6BE8190ECDD800422A06 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		192A6BE0190ECD9C00422A06 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				192A6BE5190ECDBA00422A06 /* ViewController.h */,
+				192A6BE6190ECDBA00422A06 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		192A6BE1190ECDB000422A06 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				192A6BE2190ECDB000422A06 /* AppDelegate.h */,
+				192A6BE3190ECDB000422A06 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +267,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				192A6BE9190ECDD800422A06 /* Main.storyboard in Resources */,
+				1903879D19111587000D9D07 /* Background.png in Resources */,
 				192A6BC2190ECD0E00422A06 /* Images.xcassets in Resources */,
 				192A6BB4190ECD0E00422A06 /* InfoPlist.strings in Resources */,
-				192A6BBD190ECD0E00422A06 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +289,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				192A6BC0190ECD0E00422A06 /* ViewController.m in Sources */,
-				192A6BBA190ECD0E00422A06 /* AppDelegate.m in Sources */,
+				192A6BE7190ECDBA00422A06 /* ViewController.m in Sources */,
+				192A6BE4190ECDB000422A06 /* AppDelegate.m in Sources */,
 				192A6BB6190ECD0E00422A06 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,14 +320,6 @@
 				192A6BB3190ECD0E00422A06 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		192A6BBB190ECD0E00422A06 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				192A6BBC190ECD0E00422A06 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		192A6BD1190ECD0E00422A06 /* InfoPlist.strings */ = {
@@ -460,6 +492,7 @@
 				192A6BDA190ECD0E00422A06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		192A6BDB190ECD0E00422A06 /* Build configuration list for PBXNativeTarget "Weather ForcastTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +501,7 @@
 				192A6BDD190ECD0E00422A06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
